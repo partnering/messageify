@@ -1,4 +1,7 @@
 module.exports = function (socket) {
+	if (socket._messageified) return socket
+	socket._messageified = true
+
 	//structures for building messages from unix socket bytestream
 	let msgBufSize = 81920;
 	let msgBuf = new Buffer(msgBufSize);

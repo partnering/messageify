@@ -1,0 +1,11 @@
+{
+  "name": "messageify",
+  "version": "0.0.1",
+  "description": "transforms a stream socket into a message socket",
+  "main": "messageify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sylvain Mahé <sylvain.mahe@partnering.fr>",
+  "license": "MIT"
+}
